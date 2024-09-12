@@ -39,7 +39,7 @@ kind: Task
 metadata:
   name: nose
 spec:
-  workspace:
+  workspaces:
     - name: source
   params:
     - name: args
